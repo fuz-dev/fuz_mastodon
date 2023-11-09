@@ -36,22 +36,22 @@
   "devDependencies": {
     "@changesets/changelog-git": "^0.1.14",
     "@feltjs/eslint-config": "^0.4.1",
-    "@fuz.dev/fuz": "^0.79.1",
+    "@fuz.dev/fuz": "^0.79.3",
     "@fuz.dev/fuz_code": "^0.4.3",
     "@fuz.dev/fuz_contextmenu": "^0.6.0",
     "@fuz.dev/fuz_dialog": "^0.5.0",
-    "@fuz.dev/fuz_library": "^0.19.1",
+    "@fuz.dev/fuz_library": "^0.20.0",
     "@fuz.dev/svelte_intersect": "^0.7.0",
-    "@grogarden/gro": "^0.100.1",
+    "@grogarden/gro": "^0.101.0",
     "@grogarden/util": "^0.16.0",
     "@sveltejs/adapter-static": "^2.0.3",
-    "@sveltejs/kit": "^1.27.2",
+    "@sveltejs/kit": "^1.27.3",
     "@sveltejs/package": "^2.2.2",
-    "@typescript-eslint/eslint-plugin": "^6.9.1",
-    "@typescript-eslint/parser": "^6.9.1",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
     "date-fns": "^2.30.0",
-    "eslint": "^8.52.0",
-    "eslint-plugin-svelte": "^2.34.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-svelte": "^2.35.0",
     "prettier": "^3.0.3",
     "prettier-plugin-svelte": "^3.0.3",
     "prism-svelte": "^0.5.0",
@@ -140,75 +140,75 @@
       "declarations": [
         {
           "name": "Mastodon_Cache",
-          "kind": "TypeAliasDeclaration"
+          "kind": "type"
         },
         {
           "name": "Response_Data",
-          "kind": "InterfaceDeclaration"
+          "kind": "type"
         },
         {
           "name": "Mastodon_Response_Data",
-          "kind": "TypeAliasDeclaration"
+          "kind": "type"
         },
         {
           "name": "fetch_data",
-          "kind": "VariableDeclaration"
+          "kind": "function"
         },
         {
           "name": "to_status_url",
-          "kind": "VariableDeclaration"
+          "kind": "function"
         },
         {
           "name": "to_status_url_with_author",
-          "kind": "VariableDeclaration"
+          "kind": "function"
         },
         {
           "name": "to_status_url_with_users_author",
-          "kind": "VariableDeclaration"
+          "kind": "function"
         },
         {
           "name": "to_api_status_url",
-          "kind": "VariableDeclaration"
+          "kind": "function"
         },
         {
           "name": "to_api_status_context_url",
-          "kind": "VariableDeclaration"
+          "kind": "function"
         },
         {
           "name": "to_api_favourites_url",
-          "kind": "VariableDeclaration"
+          "kind": "function"
         },
         {
           "name": "Mastodon_Status_Url",
-          "kind": "InterfaceDeclaration"
+          "kind": "type"
         },
         {
           "name": "parse_status_url",
-          "kind": "VariableDeclaration"
+          "kind": "function"
         },
         {
           "name": "fetch_status_context",
-          "kind": "VariableDeclaration"
+          "kind": "function"
         },
         {
           "name": "fetch_status",
-          "kind": "VariableDeclaration"
+          "kind": "function"
         },
         {
           "name": "fetch_favourites",
-          "kind": "VariableDeclaration"
+          "kind": "function"
         },
         {
           "name": "Mastodon_Context",
-          "kind": "InterfaceDeclaration"
+          "kind": "type"
         },
         {
           "name": "Mastodon_Status",
-          "kind": "InterfaceDeclaration"
+          "kind": "type"
         },
         {
           "name": "Mastodon_Favourite",
-          "kind": "InterfaceDeclaration"
+          "kind": "type"
         }
       ]
     },
@@ -221,7 +221,7 @@
       "declarations": [
         {
           "name": "package_json",
-          "kind": "VariableDeclaration"
+          "kind": "variable"
         }
       ]
     },
@@ -230,11 +230,11 @@
       "declarations": [
         {
           "name": "load_from_storage",
-          "kind": "VariableDeclaration"
+          "kind": "function"
         },
         {
           "name": "set_in_storage",
-          "kind": "VariableDeclaration"
+          "kind": "function"
         }
       ]
     },
