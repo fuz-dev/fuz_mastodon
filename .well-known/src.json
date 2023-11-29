@@ -1,6 +1,6 @@
 {
   "name": "@fuz.dev/fuz_mastodon",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "modules": {
     "./Mastodon_Status_Item.svelte": {
       "path": "Mastodon_Status_Item.svelte",
