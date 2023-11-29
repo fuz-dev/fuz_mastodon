@@ -1,7 +1,7 @@
 {
   "name": "@fuz.dev/fuz_mastodon",
   "description": "Mastodon components and helpers for Svelte, SvelteKit, and Fuz",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "public": true,
   "icon": "🦣",
   "license": "MIT",
@@ -97,14 +97,6 @@
     "./mastodon.js": {
       "default": "./dist/mastodon.js",
       "types": "./dist/mastodon.d.ts"
-    },
-    "./package.gen.js": {
-      "default": "./dist/package.gen.js",
-      "types": "./dist/package.gen.d.ts"
-    },
-    "./package.js": {
-      "default": "./dist/package.js",
-      "types": "./dist/package.d.ts"
     },
     "./storage.js": {
       "default": "./dist/storage.js",

@@ -1,6 +1,6 @@
 {
   "name": "@fuz.dev/fuz_mastodon",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "modules": {
     "./Mastodon_Status_Item.svelte": {
       "path": "Mastodon_Status_Item.svelte",
@@ -84,23 +84,6 @@
         {
           "name": "Mastodon_Favourite",
           "kind": "type"
-        }
-      ]
-    },
-    "./package.gen.js": {
-      "path": "package.gen.ts",
-      "declarations": []
-    },
-    "./package.js": {
-      "path": "package.ts",
-      "declarations": [
-        {
-          "name": "package_json",
-          "kind": "variable"
-        },
-        {
-          "name": "src_json",
-          "kind": "variable"
         }
       ]
     },
