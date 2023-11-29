@@ -6,7 +6,7 @@ import type {Src_Json} from '@grogarden/gro/src_json.js';
 export const package_json = {
 	name: '@fuz.dev/fuz_mastodon',
 	description: 'Mastodon components and helpers for Svelte, SvelteKit, and Fuz',
-	version: '0.3.0',
+	version: '0.4.0',
 	public: true,
 	icon: '🦣',
 	license: 'MIT',
@@ -37,9 +37,9 @@ export const package_json = {
 		'@fuz.dev/fuz_code': '^0.4.3',
 		'@fuz.dev/fuz_contextmenu': '^0.6.0',
 		'@fuz.dev/fuz_dialog': '^0.5.0',
-		'@fuz.dev/fuz_library': '^0.22.1',
+		'@fuz.dev/fuz_library': '^0.23.0',
 		'@fuz.dev/svelte_intersect': '^0.7.0',
-		'@grogarden/gro': '^0.102.3',
+		'@grogarden/gro': '^0.103.0',
 		'@grogarden/util': '^0.17.0',
 		'@sveltejs/adapter-static': '^2.0.3',
 		'@sveltejs/kit': '^1.27.6',
@@ -101,7 +101,7 @@ export const package_json = {
 
 export const src_json = {
 	name: '@fuz.dev/fuz_mastodon',
-	version: '0.3.0',
+	version: '0.4.0',
 	modules: {
 		'./Mastodon_Status_Item.svelte': {path: 'Mastodon_Status_Item.svelte', declarations: []},
 		'./Mastodon_Status_Tree.svelte': {path: 'Mastodon_Status_Tree.svelte', declarations: []},
